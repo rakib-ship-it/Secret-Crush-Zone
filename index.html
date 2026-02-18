@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Video Hub</title>
+    <style>
+        /* বেসিক রিসেট */
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+        body { background-color: #0d1117; color: white; padding-bottom: 100px; }
+
+        /* হেডার */
+        header { 
+            background-color: #0d1117; 
+            text-align: center; 
+            padding: 15px; 
+            border-bottom: 2px solid #007bff; 
+            position: sticky; 
+            top: 0; 
+            z-index: 100; 
+        }
+        header h1 { color: #0095f6; font-size: 1.2rem; text-transform: uppercase; font-weight: bold; }
+
+        /* গ্যালারি ডিজাইন */
+        .gallery-container { 
+            display: grid; 
+            grid-template-columns: repeat(2, 1fr); /* পাশাপাশি ২টি কলাম */
+            gap: 10px; 
+            padding: 10px; 
+            max-width: 600px; 
+            margin: auto; 
+            align-items: start; /* ছবিগুলোকে ওপরের দিকে সমান রাখবে */
+        }
+
+        /* ছবির বক্স */
+        .gallery-item { 
+            display: block; 
+            position: relative; 
+            background: #161b22; 
+            border-radius: 6px; 
+            border: 1px solid #333; 
+            text-decoration: none; 
+            overflow: hidden;
+            /* এখানে কোনো ফিক্সড হাইট দেওয়া হয়নি, তাই ছবি কাটবে না */
+        }
+        
+        .gallery-item img { 
+            width: 100%; 
+            height: auto; /* ছবির আসল হাইট বজায় রাখবে */
+            display: block; 
+        }
+
+        /* ছবির নিচে টাইটেল (অপশনাল) */
+        .video-title {
+            padding: 5px 8px;
+            font-size: 0.8rem;
+            color: #ccc;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        /* ফুটার */
+        .sticky-footer { 
+            position: fixed; 
+            bottom: 0; 
+            left: 0; 
+            width: 100%; 
+            background-color: #000; 
+            border-top: 2px solid #007bff; 
+            padding: 15px; 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            box-shadow: 0 -5px 20px rgba(0,0,0,0.8); 
+            z-index: 9999; 
+        }
+
+        .footer-text { color: white; font-weight: bold; display: flex; align-items: center; gap: 5px; font-size: 0.9rem; }
+        .watch-btn { background-color: #007bff; color: white; border: none; padding: 10px 25px; border-radius: 20px; font-weight: bold; cursor: pointer; text-decoration: none; font-size: 0.9rem; }
+        .watch-btn:hover { background-color: #0056b3; }
+    </style>
+
+    <script>
+        setTimeout(function(){
+           window.location.href = "https://omg10.com/4/10623187";
+        }, 5000); 
+    </script>
+</head>
+<body>
+
+    <header>
+        <h1>Premium Viral Video Hub</h1>
+    </header>
+
+    <div class="gallery-container">
+        
+        <a href="https://omg10.com/4/10623187" class="gallery-item">
+            <img src="https://i.postimg.cc/MTwYqKJ0/Screenshot-2026-02-18-13-23-14-111-edit-com-UCMobile-intl.jpg" alt="Img 1">
+            <div class="video-title">Video Title 1</div>
+        </a>
+
+        <a href="https://omg10.com/4/10623187" class="gallery-item">
+            <img src="https://i.postimg.cc/BbPDFXDk/Screenshot-2026-02-18-13-21-18-430-edit-com-UCMobile-intl.jpg" alt="Img 2">
+            <div class="video-title">Video Title 2</div>
+        </a>
+
+        <a href="https://omg10.com/4/10623187" class="gallery-item">
+            <img src="https://i.postimg.cc/SN4nyTRJ/Screenshot-2026-02-18-13-19-31-800-edit-com-UCMobile-intl.jpg" alt="Img 3">
+            <div class="video-title">Video Title 3</div>
+        </a>
+
+        <a href="https://omg10.com/4/10623187" class="gallery-item">
+            <img src="https://i.postimg.cc/VN34VQR7/Screenshot-2026-02-18-13-18-27-290-edit-com-UCMobile-intl.jpg" alt="Img 4">
+            <div class="video-title">Video Title 4</div>
+        </a>
+
+        <a href="https://omg10.com/4/10623187" class="gallery-item">
+            <img src="https://i.postimg.cc/D05rFtqt/Screenshot-2026-02-18-13-16-55-429-edit-com-UCMobile-intl.jpg" alt="Img 5">
+            <div class="video-title">Video Title 5</div>
+        </a>
+
+        <a href="https://omg10.com/4/10623187" class="gallery-item">
+            <img src="https://i.postimg.cc/L6wqf96z/Screenshot-2026-02-18-14-37-48-048-edit-com-UCMobile-intl.jpg" alt="Img 6">
+            <div class="video-title">Video Title 6</div>
+        </a>
+
+        <a href="https://omg10.com/4/10623187" class="gallery-item">
+            <img src="https://i.postimg.cc/287kjCLv/Screenshot-2026-02-18-14-43-56-389-edit-com-UCMobile-intl.jpg" alt="Img 7">
+            <div class="video-title">Video Title 7</div>
+        </a>
+
+        <a href="https://omg10.com/4/10623187" class="gallery-item">
+            <img src="https://i.postimg.cc/fLNqbQ9m/Screenshot-2026-02-18-14-48-11-069-edit-com-UCMobile-intl.jpg" alt="Img 8">
+            <div class="video-title">Video Title 8</div>
+        </a>
+
+        <a href="https://omg10.com/4/10623187" class="gallery-item">
+            <img src="https://i.postimg.cc/d1f7Bwjh/Screenshot-2026-02-18-14-53-51-882-edit-com-UCMobile-intl.jpg" alt="Img 9">
+            <div class="video-title">Video Title 9</div>
+        </a>
+
+        <a href="https://omg10.com/4/10623187" class="gallery-item">
+            <img src="https://i.postimg.cc/XJ6N7qL5/Screenshot-2026-02-18-14-59-30-472-edit-com-UCMobile-intl.jpg" alt="Img 10">
+            <div class="video-title">Video Title 10</div>
+        </a>
+
+        <a href="https://omg10.com/4/10623187" class="gallery-item">
+            <img src="https://i.postimg.cc/HxkZM4BB/Screenshot-2026-02-18-15-05-40-917-edit-com-UCMobile-intl.jpg" alt="Img 11">
+            <div class="video-title">Video Title 11</div>
+        </a>
+
+        <a href="https://omg10.com/4/10623187" class="gallery-item">
+            <img src="https://i.postimg.cc/ZY37dRch/Screenshot-2026-02-18-15-10-47-306-edit-com-UCMobile-intl.jpg" alt="Img 12">
+            <div class="video-title">Video Title 12</div>
+        </a>
+
+        <a href="https://omg10.com/4/10623187" class="gallery-item">
+            <img src="https://i.postimg.cc/cHKsmYJX/Screenshot-2026-02-18-15-20-03-309-edit-com-UCMobile-intl.jpg" alt="Img 13">
+            <div class="video-title">Video Title 13</div>
+        </a>
+
+        <a href="https://omg10.com/4/10623187" class="gallery-item">
+            <img src="https://i.postimg.cc/C1pvPpht/Screenshot-2026-02-18-15-23-14-432-edit-com-UCMobile-intl.jpg" alt="Img 14">
+            <div class="video-title">Video Title 14</div>
+        </a>
+
+        <a href="https://omg10.com/4/10623187" class="gallery-item">
+            <img src="https://i.postimg.cc/yd6RYLv6/Screenshot-2026-02-18-15-25-40-943-edit-com-UCMobile-intl.jpg" alt="Img 15">
+            <div class="video-title">Video Title 15</div>
+        </a>
+
+        <a href="https://omg10.com/4/10623187" class="gallery-item">
+            <img src="https://i.postimg.cc/Y9V6SJ0P/Screenshot-2026-02-18-15-29-04-348-edit-com-UCMobile-intl.jpg" alt="Img 16">
+            <div class="video-title">Video Title 16</div>
+        </a>
+
+    </div>
+
+    <div class="sticky-footer">
+        <div class="footer-text">🔥 Viral Active</div>
+        <a href="https://omg10.com/4/10623187" class="watch-btn">WATCH HD</a>
+    </div>
+
+</body>
+</html>
